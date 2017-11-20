@@ -15,3 +15,17 @@ else if (feet > 2500) {
 function ternaryCheckCity(city){
 return (city === "NYC") ? "Ok, sounds good." : "No go."
 }
+
+function switchOnCharmFromTip(tipamount){
+  switch (tipamount) {
+    case "generous":
+      return "Thank you so much."
+      break;
+      case "not as generous":
+        return "Thank you."
+        break;
+      case "thanks for everything":
+        return "Bye"
+        break;
+  }
+}
